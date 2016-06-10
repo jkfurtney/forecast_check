@@ -13,7 +13,7 @@ Python 2, `matplotlib`, `mpld3`, `flask` and `numpy` are required.
 ## Fetching Data
 
 `fd.py` and `wd.py` are Python programs which periodically
-query the weather underground API. The temperature forecast are stored
+query the weather underground API. The temperature forecasts are stored
 in the `data/forecast.*.txt` files and the actual temperatures are
 stored in `data/data.txt`. The format for these files is lines of
 time-stamps and temperature in Fahrenheit.
@@ -27,9 +27,7 @@ This should be stored as a string in the environmental variable `KEY`.
 actual data.
 
 giving the command: `$ python flaskapp.py` should start a local
-web-server and you can see the results on the following pages
-
-There are three ways to look at the data.
+web-server and you can see the results on the following pages:
 
 `127.0.0.1:5000/png` serves a png file which shows the actual
 temperature in black and the forecast temperatures colored according
